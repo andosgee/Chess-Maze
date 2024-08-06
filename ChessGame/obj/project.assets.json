@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessGame.csproj",
-      "projectName": "ChessGame",
-      "projectPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessGame.csproj",
+      "projectUniqueName": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj",
+      "projectName": "ChessMaze",
+      "projectPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj",
       "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\obj\\",
       "projectStyle": "PackageReference",

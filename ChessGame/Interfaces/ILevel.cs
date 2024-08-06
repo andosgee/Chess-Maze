@@ -1,4 +1,4 @@
-﻿namespace ChessMaze
+﻿namespace ChessMaze.Interfaces
 {
     public interface ILevel
     {
@@ -9,6 +9,3 @@
         bool IsCompleted { get; }
     }
 }
-
-
-
