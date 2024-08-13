@@ -3,3 +3,8 @@ C:\Users\Andrew\OneDrive - Ara Institute of Canterbury\2024\BCDE222 Best Program
 C:\Users\Andrew\OneDrive - Ara Institute of Canterbury\2024\BCDE222 Best Programming Practices C#\Assessment 2\BCDE222\ChessGame\obj\Debug\net8.0\ChessMaze.AssemblyInfo.cs
 C:\Users\Andrew\OneDrive - Ara Institute of Canterbury\2024\BCDE222 Best Programming Practices C#\Assessment 2\BCDE222\ChessGame\obj\Debug\net8.0\ChessMaze.csproj.CoreCompileInputs.cache
 C:\Users\Andrew\OneDrive - Ara Institute of Canterbury\2024\BCDE222 Best Programming Practices C#\Assessment 2\BCDE222\ChessGame\obj\Debug\net8.0\ChessMaze.sourcelink.json
+C:\Users\ang0565\OneDrive - Ara Institute of Canterbury\2024\BCDE222 Best Programming Practices C#\Assessment 2\BCDE222\ChessGame\obj\Debug\net8.0\ChessMaze.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ang0565\OneDrive - Ara Institute of Canterbury\2024\BCDE222 Best Programming Practices C#\Assessment 2\BCDE222\ChessGame\obj\Debug\net8.0\ChessMaze.AssemblyInfoInputs.cache
+C:\Users\ang0565\OneDrive - Ara Institute of Canterbury\2024\BCDE222 Best Programming Practices C#\Assessment 2\BCDE222\ChessGame\obj\Debug\net8.0\ChessMaze.AssemblyInfo.cs
+C:\Users\ang0565\OneDrive - Ara Institute of Canterbury\2024\BCDE222 Best Programming Practices C#\Assessment 2\BCDE222\ChessGame\obj\Debug\net8.0\ChessMaze.csproj.CoreCompileInputs.cache
+C:\Users\ang0565\OneDrive - Ara Institute of Canterbury\2024\BCDE222 Best Programming Practices C#\Assessment 2\BCDE222\ChessGame\obj\Debug\net8.0\ChessMaze.sourcelink.json

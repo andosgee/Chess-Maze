@@ -1,7 +1,4 @@
-﻿using ChessMaze.GameNS;
-using ChessMaze.Interfaces;
-
-namespace ChessMaze
+﻿namespace ChessMaze
 {
     public class Game : IGame
     {
