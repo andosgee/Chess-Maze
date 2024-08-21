@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andos\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj": {}
+    "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andos\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj": {
+    "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andos\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj",
+        "projectUniqueName": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj",
         "projectName": "ChessMaze",
-        "projectPath": "C:\\Users\\andos\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj",
-        "packagesPath": "C:\\Users\\andos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andos\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\obj\\",
+        "projectPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\andos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

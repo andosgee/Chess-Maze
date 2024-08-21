@@ -1,12 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\andos\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{744D2296-0DC1-4423-9F0C-A5213BDB87B7}|ChessMaze.csproj|c:\\users\\andos\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\chessgame\\gameplay\\model\\leveldesigner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{744D2296-0DC1-4423-9F0C-A5213BDB87B7}|ChessMaze.csproj|solutionrelative:gameplay\\model\\leveldesigner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,25 +9,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LevelDesigner.cs",
-              "DocumentMoniker": "C:\\Users\\andos\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\GamePlay\\Model\\LevelDesigner.cs",
-              "RelativeDocumentMoniker": "GamePlay\\Model\\LevelDesigner.cs",
-              "ToolTip": "C:\\Users\\andos\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\GamePlay\\Model\\LevelDesigner.cs",
-              "RelativeToolTip": "GamePlay\\Model\\LevelDesigner.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAUwAIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T23:21:24.06Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
             }
           ]
         }
