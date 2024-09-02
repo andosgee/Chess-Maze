@@ -52,15 +52,15 @@
           "dependencies": {
             "MSTest": {
               "target": "Package",
-              "version": "[3.5.1, )"
+              "version": "[3.5.2, )"
             },
             "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[3.5.1, )"
+              "version": "[3.5.2, )"
             },
             "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[3.5.1, )"
+              "version": "[3.5.2, )"
             }
           },
           "imports": [

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChessMaze")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a737365f056c1c095c5eca2173297cec5e39fcca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e853ba7118645ff03511896b1dc29c8be641593")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChessMaze")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChessMaze")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

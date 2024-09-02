@@ -25,12 +25,12 @@ public class Board : IBoard
     /// <returns>Returns null if not a valid position, else returns the piece at the position</returns>
     public IPiece GetPieceAt(IPosition position)
     {
-        if (IsValidPosition(position))
+        if (position == null)
         {
-            PieceType pieceType = Cells[position.Row, position.Column];
-            return new Piece(pieceType); // Assuming Piece class has a constructor that takes PieceType
+            throw new ArgumentNullException(nameof(position), "Position cannot be null.");
         }
-        return null;
+        PieceType pieceType = Cells[position.Row, position.Column];
+        return new Piece(pieceType);
     }
 
     /// <summary>
@@ -86,4 +86,22 @@ public class Board : IBoard
         // Not needed for the scope of level Designer.
         return IsValidPosition(to);
     }
+
+    /// <summary>
+    /// Gets the width of the board
+    /// </summary>
+    /// <returns>Returns integer value of the board</returns>
+    public int GetBoardWidth()
+    {
+        return Columns;
+    }
+
+    /// <summary>
+    /// Gets the height of the board
+    /// </summary>
+    /// <returns>Returns integer value of the board</returns>
+    public int GetBoardHeight()
+    {
+        return Rows;
+    } 
 }

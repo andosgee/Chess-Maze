@@ -3,11 +3,11 @@
     // Testing framework =  MSTest
     public class LevelDesigner : ILevelDesigner
     {
-        /// <summary>Defines the board size in a global scope for the class.</summary>
         public int[] boardSize;
-        /// <summary>Defines the levels name in a global scope for the class.</summary>
         public string levelName;
         public ILevel _level;
+        public Board boards;
+        public IBoard Board { get; private set; }
 
         /// <summary>
         /// Constructor method for the LevelDesigner Class.
@@ -17,20 +17,30 @@
         /// <param name="name">String value for the name of the level</param>
         public LevelDesigner(int width, int height, string name)
         {
-            CreateLevel(width, height);
+            if (width <= 0) throw new ArgumentOutOfRangeException(nameof(width), "Width must be greater than zero.");
+            if (height <= 0) throw new ArgumentOutOfRangeException(nameof(height), "Height must be greater than zero.");
+            if (string.IsNullOrWhiteSpace(name)) throw new ArgumentNullException(nameof(name), "Level name cannot be null or empty.");
+            _level = CreateLevel(width, height);
+            boards = _level.Board as Board;
+            Board = _level.Board;
             SetLevelName(name);
         }
 
-        public IBoard Board { get; private set; }
 
+        /// <summary>
+        /// Creates a level instance with the sizing of the board provided by the user and then the default parameters for the level
+        /// </summary>
+        /// <param name="width">The width of the Level</param>
+        /// <param name="height">The height of the Level</param>
+        /// <returns>The newly created level</returns>
         public ILevel CreateLevel(int width, int height)
         {
-            IBoard board = new Board(width, height);
+            Board boards = new Board(width, height);
             IPosition startPosition = new Position(0, 0);
             IPosition endPosition = new Position(width - 1, height - 1);
             IPlayer player = new Player(startPosition);
 
-            return new Level(board, startPosition, endPosition, player);
+            return new Level(boards, startPosition, endPosition, player);
         }
 
         /// <summary>
@@ -57,9 +67,12 @@
         /// Gets the board size
         /// </summary>
         /// <returns>Returns the board size as a array (Width x Height)</returns>
-        public Array GetBoardSize()
+        public int[] GetBoardSize()
         {
-            return boardSize;
+            int _width = boards.GetBoardWidth();
+            int _height = boards.GetBoardHeight();
+            int[] _boardSize = { _width, _height };
+            return _boardSize;
         }
 
         /// <summary>
@@ -98,12 +111,30 @@
             {
                 throw new IndexOutOfRangeException("The position is out of bounds.");
             }
+            if (Board == null)
+            {
+                throw new InvalidOperationException("The Board has not been initialized.");
+            }
 
-            // Implement the place piece on board AFTER the checks
+            IPiece pieceToPlace = new Piece(piece);
 
-            // Place the piece on the board
-            //IPiece type = piece;
-            //Board.PlacePiece(piece, position);
+            boards.PlacePiece(pieceToPlace, position);
+        }
+
+        /// <summary>
+        /// Gets the Piece that is at a Given Index.
+        /// </summary>
+        /// <param name="position">The Position that the piece retrival is attempting to get</param>
+        /// <returns>The Piece</returns>
+        /// <exception cref="IndexOutOfRangeException">Throws an error if the piece is out of bounds.</exception>
+        public IPiece GetPieceAt(Position position)
+        {
+            if (!CheckBounds(position))
+            { 
+                throw new IndexOutOfRangeException("The position is out of bounds.");
+            }
+
+            return boards.GetPieceAt(position);
         }
 
         /// <summary>
@@ -124,13 +155,23 @@
         /// <returns>Bool depending on the lagality of the placement</returns>
         private bool CheckBounds(IPosition position)
         {
-           return position.Row >= 0 && position.Row < boardSize[0] &&
-                  position.Column >= 0 && position.Column < boardSize[1];
+            return position != null && position.Row >= 0 && position.Row < boards.GetBoardHeight() &&
+                    position.Column >= 0 && position.Column < boards.GetBoardWidth();
         }
 
+        /// <summary>
+        /// Removes a Piece from the Board by setting the position as empty.
+        /// </summary>
+        /// <param name="position">The Position the user wants to empty</param>
+        /// <exception cref="IndexOutOfRangeException">Throws Error if the position is out of bounds</exception>
         public void RemovePiece(IPosition position)
         {
+            if (!CheckBounds(position))
+            {
+                throw new IndexOutOfRangeException("The position is out of bounds.");
+            }
 
+            PlacePiece(PieceType.Empty, position);
         }
 
         public void SetStartPosition(IPosition position)

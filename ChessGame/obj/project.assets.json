@@ -566,19 +566,19 @@
           "build/netcoreapp3.1/Microsoft.TestPlatform.TestHost.props": {}
         }
       },
-      "MSTest/3.5.1": {
+      "MSTest/3.5.2": {
         "type": "package",
         "dependencies": {
-          "MSTest.Analyzers": "[3.5.1]",
-          "MSTest.TestAdapter": "[3.5.1]",
-          "MSTest.TestFramework": "[3.5.1]",
+          "MSTest.Analyzers": "[3.5.2]",
+          "MSTest.TestAdapter": "[3.5.2]",
+          "MSTest.TestFramework": "[3.5.2]",
           "Microsoft.NET.Test.Sdk": "17.10.0"
         }
       },
-      "MSTest.Analyzers/3.5.1": {
+      "MSTest.Analyzers/3.5.2": {
         "type": "package"
       },
-      "MSTest.TestAdapter/3.5.1": {
+      "MSTest.TestAdapter/3.5.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Testing.Extensions.VSTestBridge": "1.3.2",
@@ -589,7 +589,7 @@
           "build/net8.0/MSTest.TestAdapter.targets": {}
         }
       },
-      "MSTest.TestFramework/3.5.1": {
+      "MSTest.TestFramework/3.5.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
@@ -1317,23 +1317,23 @@
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
-    "MSTest/3.5.1": {
-      "sha512": "UHsuQFWiqVS644EgQ4Kp5ldbMZqodQaccShfHLOUQTptJ5+KaOnoCX9Yxzs01PGrArvLc3CvneMzqkMMN/OJ+w==",
+    "MSTest/3.5.2": {
+      "sha512": "rFn6ZjUJccqHmL45wdEAjgDSMvctMGaq00bg/QkIZ03gPw4DZoXEEIP6PBbp/z51NYYWZJx6bmeS+JbhbcbK2g==",
       "type": "package",
-      "path": "mstest/3.5.1",
+      "path": "mstest/3.5.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "PACKAGE.md",
-        "mstest.3.5.1.nupkg.sha512",
+        "mstest.3.5.2.nupkg.sha512",
         "mstest.nuspec"
       ]
     },
-    "MSTest.Analyzers/3.5.1": {
-      "sha512": "YUE7O0mVr4m/f3IafRpZ3mWYcRLdRLr+RXlDKvlGDXI6Ym7E0L8QO4xEfF+yPZ3bCHZYFbTgp61IYeW3PwbALQ==",
+    "MSTest.Analyzers/3.5.2": {
+      "sha512": "03T/0UPMmkGHpYy0alpExoho6sRM6441P6sFTG3HrWhN+tfxWTkOddv3VUrtKOULgb2g22IJRk7mtD7l6tZpkg==",
       "type": "package",
-      "path": "mstest.analyzers/3.5.1",
+      "path": "mstest.analyzers/3.5.2",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1342,16 +1342,16 @@
         "PACKAGE.md",
         "analyzers/dotnet/cs/MSTest.Analyzers.CodeFixes.dll",
         "analyzers/dotnet/cs/MSTest.Analyzers.dll",
-        "mstest.analyzers.3.5.1.nupkg.sha512",
+        "mstest.analyzers.3.5.2.nupkg.sha512",
         "mstest.analyzers.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
     },
-    "MSTest.TestAdapter/3.5.1": {
-      "sha512": "uOdP2jqFWnRydLS4ht8y2J2XC0vWj7kuRf5F0bw6zeKFZ0n93qaOtPp2id5GStvG52jtJeC6f1XaRni7bwc5CQ==",
+    "MSTest.TestAdapter/3.5.2": {
+      "sha512": "jEgtMo1/Ih/h0/s+cp+o1prVPBWp/SIh1jfYQH8pK/kQlHMGbwjhnbj0E7kqx3Bn+tGzB6pgq8Im4rgXoLJETA==",
       "type": "package",
-      "path": "mstest.testadapter/3.5.1",
+      "path": "mstest.testadapter/3.5.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1518,14 +1518,14 @@
         "build/uap10.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll",
         "build/uap10.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
         "build/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
-        "mstest.testadapter.3.5.1.nupkg.sha512",
+        "mstest.testadapter.3.5.2.nupkg.sha512",
         "mstest.testadapter.nuspec"
       ]
     },
-    "MSTest.TestFramework/3.5.1": {
-      "sha512": "JF3eX7fq24NmL9DuXKQ9jfnrnE+fgqfo3WzMP0MVL7teA1nhAUKrocFr5Sya8pfc5v4+IkiZ+ssazvfEbR2VEw==",
+    "MSTest.TestFramework/3.5.2": {
+      "sha512": "XDPIPvPWcbnyte0Oj0EzxMV38RIE925C0EtZCWXUfsho+QYqIv3LNjIZstG/JpamlhPHOQlfdrzc/FRF9lW5Ag==",
       "type": "package",
-      "path": "mstest.testframework/3.5.1",
+      "path": "mstest.testframework/3.5.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1655,7 +1655,7 @@
         "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
         "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
         "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
-        "mstest.testframework.3.5.1.nupkg.sha512",
+        "mstest.testframework.3.5.2.nupkg.sha512",
         "mstest.testframework.nuspec"
       ]
     },
@@ -1738,9 +1738,9 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "MSTest >= 3.5.1",
-      "MSTest.TestAdapter >= 3.5.1",
-      "MSTest.TestFramework >= 3.5.1"
+      "MSTest >= 3.5.2",
+      "MSTest.TestAdapter >= 3.5.2",
+      "MSTest.TestFramework >= 3.5.2"
     ]
   },
   "packageFolders": {
@@ -1795,15 +1795,15 @@
         "dependencies": {
           "MSTest": {
             "target": "Package",
-            "version": "[3.5.1, )"
+            "version": "[3.5.2, )"
           },
           "MSTest.TestAdapter": {
             "target": "Package",
-            "version": "[3.5.1, )"
+            "version": "[3.5.2, )"
           },
           "MSTest.TestFramework": {
             "target": "Package",
-            "version": "[3.5.1, )"
+            "version": "[3.5.2, )"
           }
         },
         "imports": [

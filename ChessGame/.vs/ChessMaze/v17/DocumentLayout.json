@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8D557B33-5E3E-48B5-B7F9-E7F1023F91C1}|..\\ChessMazeTests\\ChessMazeTests.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\chessmazetests\\placepieces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744D2296-0DC1-4423-9F0C-A5213BDB87B7}|ChessMaze.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\chessgame\\gameplay\\model\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744D2296-0DC1-4423-9F0C-A5213BDB87B7}|ChessMaze.csproj|solutionrelative:gameplay\\model\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{744D2296-0DC1-4423-9F0C-A5213BDB87B7}|ChessMaze.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\chessgame\\gameplay\\model\\leveldesigner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{744D2296-0DC1-4423-9F0C-A5213BDB87B7}|ChessMaze.csproj|solutionrelative:gameplay\\model\\leveldesigner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,21 +21,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LevelDesigner.cs",
-              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\GamePlay\\Model\\LevelDesigner.cs",
-              "RelativeDocumentMoniker": "GamePlay\\Model\\LevelDesigner.cs",
-              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\GamePlay\\Model\\LevelDesigner.cs",
-              "RelativeToolTip": "GamePlay\\Model\\LevelDesigner.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T03:04:52.154Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
@@ -36,6 +30,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlacePieces.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessMazeTests\\PlacePieces.cs",
+              "RelativeDocumentMoniker": "..\\ChessMazeTests\\PlacePieces.cs",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessMazeTests\\PlacePieces.cs",
+              "RelativeToolTip": "..\\ChessMazeTests\\PlacePieces.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAE8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T12:30:11.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\GamePlay\\Model\\Board.cs",
+              "RelativeDocumentMoniker": "GamePlay\\Model\\Board.cs",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\GamePlay\\Model\\Board.cs",
+              "RelativeToolTip": "GamePlay\\Model\\Board.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T11:25:23.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LevelDesigner.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\GamePlay\\Model\\LevelDesigner.cs",
+              "RelativeDocumentMoniker": "GamePlay\\Model\\LevelDesigner.cs",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\GamePlay\\Model\\LevelDesigner.cs",
+              "RelativeToolTip": "GamePlay\\Model\\LevelDesigner.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAKUAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T21:38:12.473Z",
+              "EditorCaption": ""
             }
           ]
         }
