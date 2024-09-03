@@ -3,8 +3,8 @@
 public class Level : ILevel
 {
     public IBoard Board { get; private set; }
-    public IPosition StartPosition { get; private set; }
-    public IPosition EndPosition { get; private set; }
+    public IPosition StartPosition { get; set; }
+    public IPosition EndPosition { get; set; }
     public IPlayer Player { get; private set; }
     public bool IsCompleted { get; private set; }
 
@@ -31,4 +31,5 @@ public class Level : ILevel
     {
         IsCompleted = true;
     }
+
 }

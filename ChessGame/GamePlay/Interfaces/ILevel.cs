@@ -11,12 +11,12 @@ public interface ILevel
     /// <summary>
     /// Gets the start position for this level.
     /// </summary>
-    IPosition StartPosition { get; }
+    IPosition StartPosition { get; set; }
 
     /// <summary>
     /// Gets the end position for this level.
     /// </summary>
-    IPosition EndPosition { get; }
+    IPosition EndPosition { get; set; }
 
     /// <summary>
     /// Gets the player for this level.

@@ -20,9 +20,20 @@
             if (width <= 0) throw new ArgumentOutOfRangeException(nameof(width), "Width must be greater than zero.");
             if (height <= 0) throw new ArgumentOutOfRangeException(nameof(height), "Height must be greater than zero.");
             if (string.IsNullOrWhiteSpace(name)) throw new ArgumentNullException(nameof(name), "Level name cannot be null or empty.");
+
             _level = CreateLevel(width, height);
             boards = _level.Board as Board;
             Board = _level.Board;
+
+            // Loop Through and set to empty
+            for (int row = 0; row < height; row++)
+            {
+                for (int column = 0; column < width; column++)
+                {
+                    boards.PlacePiece(new Piece(PieceType.Empty), new Position(row, column));
+                }
+            }
+
             SetLevelName(name);
         }
 
@@ -46,21 +57,38 @@
         /// <summary>
         /// Sets the Board size to the desired size set by the user.
         /// </summary>
-        /// <param name="width">The width of the board.</param>
-        /// <param name="height">The height of the board.</param>
-        public void SetBoardSize(int width, int height)
+        /// <param name="newWidth">The width of the board.</param>
+        /// <param name="newHeight">The height of the board.</param>
+        public void SetBoardSize(int newWidth, int newHeight)
         {
-            // If the board is empty, define it.
-            if (boardSize == null) {
-                boardSize = new int[2];
-                boardSize[0] = width;
-                boardSize[1] = height;
+            if (newWidth <= 0) throw new ArgumentOutOfRangeException(nameof(newWidth), "Width must be greater than zero.");
+            if (newHeight <= 0) throw new ArgumentOutOfRangeException(nameof(newHeight), "Height must be greater than zero.");
+
+            var newCells = new PieceType[newHeight, newWidth];
+
+            for (int row = 0; row < Math.Min(Board.Rows, newHeight); row++)
+            {
+                for (int column = 0; column < Math.Min(Board.Columns, newWidth); column++)
+                {
+                    newCells[row, column] = boards.Cells[row, column];
+                }
             }
-            else if (boardSize[0] < width | boardSize[1] < height){
-                // Loop through remove the pieces out of the new bounds
-                boardSize[0] = width;
-                boardSize[1] = height;
+
+            for (int row = 0; row < newHeight; row++)
+            {
+                for (int column = 0; column < newWidth; column++)
+                {
+                    if (row >= Board.Rows || column >= Board.Columns)
+                    {
+                        newCells[row, column] = PieceType.Empty;
+                    }
+                }
             }
+
+            boards.Cells = newCells;
+            boards.Rows = newHeight;
+            boards.Columns = newWidth;
+
         }
 
         /// <summary>
@@ -75,12 +103,19 @@
             return _boardSize;
         }
 
+
         /// <summary>
         /// Sets the levels name.
         /// </summary>
         /// <param name="name">String value for the name of the level.</param>
-        public void SetLevelName(string name) 
+        /// <exception cref="ArgumentNullException"></exception>
+        public void SetLevelName(string name)
         {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                throw new ArgumentNullException(nameof(name), "Level name cannot be null or empty.");
+            }
+
             levelName = name;
         }
 
@@ -89,7 +124,7 @@
         /// </summary>
         /// <returns>String value for the level name.</returns>
         public string GetLevelName()
-        { 
+        {
             return levelName;
         }
 
@@ -102,7 +137,6 @@
         /// <exception cref="IndexOutOfRangeException">Thrown when the position is out of bounds.</exception>
         public void PlacePiece(PieceType piece, IPosition position)
         {
-            // make throw catch instead??
             if (!CheckPiece(piece))
             {
                 throw new ArgumentException($"The piece '{piece}' is not a valid PieceType.", nameof(piece));
@@ -130,7 +164,7 @@
         public IPiece GetPieceAt(Position position)
         {
             if (!CheckBounds(position))
-            { 
+            {
                 throw new IndexOutOfRangeException("The position is out of bounds.");
             }
 
@@ -142,12 +176,12 @@
         /// </summary>
         /// <param name="piece">The user entered Piece</param>
         /// <returns>Bool</returns>
-        private static bool CheckPiece(PieceType piece) 
+        private static bool CheckPiece(PieceType piece)
         {
             bool _isEnum = Enum.IsDefined(typeof(PieceType), piece);
             return _isEnum;
         }
-        
+
         /// <summary>
         /// Checks the boundary of the board before a piece is placed 
         /// </summary>
@@ -174,14 +208,51 @@
             PlacePiece(PieceType.Empty, position);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="position"></param>
+        /// <exception cref="IndexOutOfRangeException"></exception>
         public void SetStartPosition(IPosition position)
         {
-
+            if (!CheckBounds(position))
+            {
+                throw new IndexOutOfRangeException($"The start position, '{position}', is out of bounds.");
+            }
+            _level.StartPosition = position;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public IPosition GetStartPosition()
+        {
+            return _level.StartPosition;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="position"></param>
+        /// <exception cref="IndexOutOfRangeException"></exception>
         public void SetEndPosition(IPosition position)
         {
-
+            if (!CheckBounds(position))
+            {
+                throw new IndexOutOfRangeException($"The end position, '{position}', is out of bounds.");
+            }
+            _level.EndPosition = position;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public IPosition GetEndPosition()
+        {
+            return _level.EndPosition;
+        }
+
     }
 }

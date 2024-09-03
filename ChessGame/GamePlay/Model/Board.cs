@@ -2,9 +2,9 @@
 
 public class Board : IBoard
 {
-    public int Rows { get; private set; }
-    public int Columns { get; private set; }
-    public PieceType[,] Cells { get; private set; }
+    public int Rows { get; internal set; }
+    public int Columns { get; internal set; }
+    public PieceType[,] Cells { get; internal set; }
 
     /// <summary>
     /// Constructor of the Board Class
