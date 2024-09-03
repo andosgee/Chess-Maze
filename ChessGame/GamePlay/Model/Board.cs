@@ -23,6 +23,7 @@ public class Board : IBoard
     /// </summary>
     /// <param name="position">Position that the user enters</param>
     /// <returns>Returns null if not a valid position, else returns the piece at the position</returns>
+    /// <exception cref="ArgumentNullException">Throws an error if the position is empty or null</exception>
     public IPiece GetPieceAt(IPosition position)
     {
         if (position == null)

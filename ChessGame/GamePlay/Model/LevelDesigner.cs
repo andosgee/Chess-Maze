@@ -59,6 +59,7 @@
         /// </summary>
         /// <param name="newWidth">The width of the board.</param>
         /// <param name="newHeight">The height of the board.</param>
+        /// <exception cref="ArgumentOutOfRangeException">Throws error if the value is equal to 0 or less than</exception>
         public void SetBoardSize(int newWidth, int newHeight)
         {
             if (newWidth <= 0) throw new ArgumentOutOfRangeException(nameof(newWidth), "Width must be greater than zero.");
@@ -108,7 +109,7 @@
         /// Sets the levels name.
         /// </summary>
         /// <param name="name">String value for the name of the level.</param>
-        /// <exception cref="ArgumentNullException"></exception>
+        /// <exception cref="ArgumentNullException">Throws error if the new name is null or empty</exception>
         public void SetLevelName(string name)
         {
             if (string.IsNullOrWhiteSpace(name))
@@ -135,6 +136,7 @@
         /// <param name="position">The position the user wants the piece at.</param>
         /// <exception cref="ArgumentException">Thrown when the piece is not valid.</exception>
         /// <exception cref="IndexOutOfRangeException">Thrown when the position is out of bounds.</exception>
+        /// <exception cref="InvalidOperationException">If the board has not been initialised</exception>
         public void PlacePiece(PieceType piece, IPosition position)
         {
             if (!CheckPiece(piece))
@@ -147,7 +149,7 @@
             }
             if (Board == null)
             {
-                throw new InvalidOperationException("The Board has not been initialized.");
+                throw new InvalidOperationException("The Board has not been initialised.");
             }
 
             IPiece pieceToPlace = new Piece(piece);
@@ -172,7 +174,7 @@
         }
 
         /// <summary>
-        /// Checks if a piece is valid/
+        /// Checks if a piece is valid
         /// </summary>
         /// <param name="piece">The user entered Piece</param>
         /// <returns>Bool</returns>
@@ -209,10 +211,10 @@
         }
 
         /// <summary>
-        /// 
+        /// Sets the start position. This may be different to the original position.
         /// </summary>
-        /// <param name="position"></param>
-        /// <exception cref="IndexOutOfRangeException"></exception>
+        /// <param name="position">New Position of the start point</param>
+        /// <exception cref="IndexOutOfRangeException">Throws an error if the new position is not on the board.</exception>
         public void SetStartPosition(IPosition position)
         {
             if (!CheckBounds(position))
@@ -223,19 +225,19 @@
         }
 
         /// <summary>
-        /// 
+        /// Returns the starting position
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Returns the starting position as a IPosition</returns>
         public IPosition GetStartPosition()
         {
             return _level.StartPosition;
         }
 
         /// <summary>
-        /// 
+        /// Sets the end position of the level
         /// </summary>
-        /// <param name="position"></param>
-        /// <exception cref="IndexOutOfRangeException"></exception>
+        /// <param name="position">Position of the end place.</param>
+        /// <exception cref="IndexOutOfRangeException">Throws error if it is out of boards bounds.</exception>
         public void SetEndPosition(IPosition position)
         {
             if (!CheckBounds(position))
@@ -246,19 +248,19 @@
         }
 
         /// <summary>
-        /// 
+        /// Gets the end position of the level.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Returns the end position as a IPosition</returns>
         public IPosition GetEndPosition()
         {
             return _level.EndPosition;
         }
 
         /// <summary>
-        /// 
+        /// Adds a goal to the level
         /// </summary>
-        /// <param name="position"></param>
-        /// <exception cref="IndexOutOfRangeException"></exception>
+        /// <param name="position">Takes the position of the goal</param>
+        /// <exception cref="IndexOutOfRangeException">Throws error if the goal is out of the level bounds</exception>
         public void AddGoal(IPosition position)
         {
             if (!CheckBounds(position))
@@ -270,10 +272,10 @@
         }
 
         /// <summary>
-        /// 
+        /// Removes a goal from the level.
         /// </summary>
-        /// <param name="position"></param>
-        /// <exception cref="IndexOutOfRangeException"></exception>
+        /// <param name="position">Takes a position.</param>
+        /// <exception cref="IndexOutOfRangeException">Throws error if position is out of bounds of the board</exception>
         public void RemoveGoal(IPosition position)
         {
             if (!CheckBounds(position))
@@ -284,15 +286,18 @@
             _level.RemoveGoal(position);
         }
 
+        /// <summary>
+        /// Removes all goals from the level
+        /// </summary>
         public void RemoveAllGoals()
         {
             _level.RemoveAllGoals();
         }
 
         /// <summary>
-        /// 
+        /// Gets the goals list
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Returns the goal list</returns>
         public IEnumerable<IPosition> GetGoals()
         {
             return _level.Goals;

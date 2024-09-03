@@ -35,18 +35,19 @@ public class Level : ILevel
     }
 
     /// <summary>
-    /// 
+    /// Adds a goal to the list
     /// </summary>
-    /// <param name="position"></param>
+    /// <param name="position">Takes position of the goal</param>
     public void AddGoal(IPosition position)
     {
         goals.Add(position);
     }
 
     /// <summary>
-    /// 
+    /// Removes a goal at a given position
     /// </summary>
-    /// <param name="position"></param>
+    /// <param name="position">Takes position of the goal</param>
+    /// <exception cref="ArgumentException">Throws an error if the goal does not exist</exception>
     public void RemoveGoal(IPosition position)
     {
         if (!goals.Contains(position))
@@ -56,6 +57,9 @@ public class Level : ILevel
         goals.Remove(position);
     }
 
+    /// <summary>
+    /// Removes all goals from the list
+    /// </summary>
     public void RemoveAllGoals()
     {
         goals.Clear();

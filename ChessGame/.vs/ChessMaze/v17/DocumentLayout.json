@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{744D2296-0DC1-4423-9F0C-A5213BDB87B7}|ChessMaze.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\chessgame\\gameplay\\model\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{744D2296-0DC1-4423-9F0C-A5213BDB87B7}|ChessMaze.csproj|solutionrelative:gameplay\\model\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\GamePlay\\Model\\Board.cs",
+              "RelativeDocumentMoniker": "GamePlay\\Model\\Board.cs",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\GamePlay\\Model\\Board.cs",
+              "RelativeToolTip": "GamePlay\\Model\\Board.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAA1wGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T04:06:06.644Z",
+              "EditorCaption": ""
             }
           ]
         }
