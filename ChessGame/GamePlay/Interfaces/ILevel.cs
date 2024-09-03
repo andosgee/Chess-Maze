@@ -27,4 +27,26 @@ public interface ILevel
     /// Determines if the level is completed.
     /// </summary>
     bool IsCompleted { get; }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    IEnumerable<IPosition> Goals { get; }
+    
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="position"></param>
+    void AddGoal(IPosition position);
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="position"></param>
+    void RemoveGoal(IPosition position);
+
+    /// <summary>
+    /// 
+    /// </summary>
+    void RemoveAllGoals();
 }

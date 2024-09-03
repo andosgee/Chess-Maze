@@ -254,5 +254,49 @@
             return _level.EndPosition;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="position"></param>
+        /// <exception cref="IndexOutOfRangeException"></exception>
+        public void AddGoal(IPosition position)
+        {
+            if (!CheckBounds(position))
+            {
+                throw new IndexOutOfRangeException("The position is out of bounds.");
+            }
+
+            _level.AddGoal(position);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="position"></param>
+        /// <exception cref="IndexOutOfRangeException"></exception>
+        public void RemoveGoal(IPosition position)
+        {
+            if (!CheckBounds(position))
+            {
+                throw new IndexOutOfRangeException("The position is out of bounds.");
+            }
+
+            _level.RemoveGoal(position);
+        }
+
+        public void RemoveAllGoals()
+        {
+            _level.RemoveAllGoals();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public IEnumerable<IPosition> GetGoals()
+        {
+            return _level.Goals;
+        }
+
     }
 }

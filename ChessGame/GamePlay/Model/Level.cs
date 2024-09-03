@@ -7,6 +7,8 @@ public class Level : ILevel
     public IPosition EndPosition { get; set; }
     public IPlayer Player { get; private set; }
     public bool IsCompleted { get; private set; }
+    private List<IPosition> goals = new List<IPosition>();
+    public IEnumerable<IPosition> Goals => goals;
 
     /// <summary>
     /// Constructor for the level.
@@ -30,6 +32,33 @@ public class Level : ILevel
     public void CompleteLevel()
     {
         IsCompleted = true;
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="position"></param>
+    public void AddGoal(IPosition position)
+    {
+        goals.Add(position);
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="position"></param>
+    public void RemoveGoal(IPosition position)
+    {
+        if (!goals.Contains(position))
+        {
+            throw new ArgumentException("The goal is not in the list.", nameof(position));
+        }
+        goals.Remove(position);
+    }
+
+    public void RemoveAllGoals()
+    {
+        goals.Clear();
     }
 
 }
