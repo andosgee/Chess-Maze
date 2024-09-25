@@ -593,7 +593,10 @@
           "MSTest.TestFramework": "3.5.2"
         },
         "runtime": {
-          "ChessMaze.dll": {}
+          "ChessMaze.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {

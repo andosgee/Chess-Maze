@@ -127,7 +127,7 @@ namespace ChessMazeTests
             _levelDesigner.SetEndPosition(newEnd);
 
             // Assert
-            Assert.AreEqual(newEnd, _levelDesigner.GetEndPosition(), "Start Position should be 1,3");
+            Assert.AreEqual(newEnd, _levelDesigner.GetEndPosition(), "End Position should be 7,4");
         }
 
         [TestMethod]
