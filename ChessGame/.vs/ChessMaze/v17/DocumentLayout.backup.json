@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D557B33-5E3E-48B5-B7F9-E7F1023F91C1}|..\\ChessMazeTests\\ChessMazeTests.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\chessmazetests\\changeboardparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D557B33-5E3E-48B5-B7F9-E7F1023F91C1}|..\\ChessMazeTests\\ChessMazeTests.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\chessmazetests\\goals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D557B33-5E3E-48B5-B7F9-E7F1023F91C1}|..\\ChessMazeTests\\ChessMazeTests.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\chessmazetests\\removepieces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChangeBoardParameters.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessMazeTests\\ChangeBoardParameters.cs",
+              "RelativeDocumentMoniker": "..\\ChessMazeTests\\ChangeBoardParameters.cs",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessMazeTests\\ChangeBoardParameters.cs",
+              "RelativeToolTip": "..\\ChessMazeTests\\ChangeBoardParameters.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T09:58:24.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Goals.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessMazeTests\\Goals.cs",
+              "RelativeDocumentMoniker": "..\\ChessMazeTests\\Goals.cs",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessMazeTests\\Goals.cs",
+              "RelativeToolTip": "..\\ChessMazeTests\\Goals.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAF4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T09:55:34.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RemovePieces.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessMazeTests\\RemovePieces.cs",
+              "RelativeDocumentMoniker": "..\\ChessMazeTests\\RemovePieces.cs",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessMazeTests\\RemovePieces.cs",
+              "RelativeToolTip": "..\\ChessMazeTests\\RemovePieces.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T09:53:39.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
