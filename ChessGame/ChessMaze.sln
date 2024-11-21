@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessMaze", "ChessMaze.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessMazeTests", "..\ChessMazeTests\ChessMazeTests.csproj", "{8D557B33-5E3E-48B5-B7F9-E7F1023F91C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelDesignerView", "..\LevelDesignerView\LevelDesignerView.csproj", "{DC97FE3C-E089-4FD1-92C7-8D4E4545BEF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevelDesignerView", "..\LevelDesignerView\LevelDesignerView.csproj", "{DC97FE3C-E089-4FD1-92C7-8D4E4545BEF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFLevelDesignerView", "..\WPFLevelDesignerView\WPFLevelDesignerView.csproj", "{40CE6AC8-9A22-4485-A2E3-820941BC1D8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DC97FE3C-E089-4FD1-92C7-8D4E4545BEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC97FE3C-E089-4FD1-92C7-8D4E4545BEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC97FE3C-E089-4FD1-92C7-8D4E4545BEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40CE6AC8-9A22-4485-A2E3-820941BC1D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CE6AC8-9A22-4485-A2E3-820941BC1D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CE6AC8-9A22-4485-A2E3-820941BC1D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CE6AC8-9A22-4485-A2E3-820941BC1D8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

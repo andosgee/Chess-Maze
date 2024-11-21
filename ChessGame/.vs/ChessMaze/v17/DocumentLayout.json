@@ -3,19 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC97FE3C-E089-4FD1-92C7-8D4E4545BEF0}|..\\LevelDesignerView\\LevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\leveldesignerview\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC97FE3C-E089-4FD1-92C7-8D4E4545BEF0}|..\\LevelDesignerView\\LevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\leveldesignerview\\leveldesignerprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC97FE3C-E089-4FD1-92C7-8D4E4545BEF0}|..\\LevelDesignerView\\LevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\leveldesignerview\\leveldesignerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC97FE3C-E089-4FD1-92C7-8D4E4545BEF0}|..\\LevelDesignerView\\LevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\leveldesignerview\\leveldesignerprompt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DC97FE3C-E089-4FD1-92C7-8D4E4545BEF0}|..\\LevelDesignerView\\LevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\leveldesignerview\\leveldesignerview.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC97FE3C-E089-4FD1-92C7-8D4E4545BEF0}|..\\LevelDesignerView\\LevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\leveldesignerview\\leveldesignerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{40CE6AC8-9A22-4485-A2E3-820941BC1D8B}|..\\WPFLevelDesignerView\\WPFLevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\wpfleveldesignerview\\leveldesignerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40CE6AC8-9A22-4485-A2E3-820941BC1D8B}|..\\WPFLevelDesignerView\\WPFLevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\wpfleveldesignerview\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40CE6AC8-9A22-4485-A2E3-820941BC1D8B}|..\\WPFLevelDesignerView\\WPFLevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\wpfleveldesignerview\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40CE6AC8-9A22-4485-A2E3-820941BC1D8B}|..\\WPFLevelDesignerView\\WPFLevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\wpfleveldesignerview\\leveldesignerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40CE6AC8-9A22-4485-A2E3-820941BC1D8B}|..\\WPFLevelDesignerView\\WPFLevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\wpfleveldesignerview\\leveldesignerprompt.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40CE6AC8-9A22-4485-A2E3-820941BC1D8B}|..\\WPFLevelDesignerView\\WPFLevelDesignerView.csproj|c:\\users\\andrew\\onedrive - ara institute of canterbury\\2024\\bcde222 best programming practices c#\\assessment 2\\bcde222\\wpfleveldesignerview\\inputdiaglog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,65 +51,102 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Home.cs",
-              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\Home.cs",
-              "RelativeDocumentMoniker": "..\\LevelDesignerView\\Home.cs",
-              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\Home.cs",
-              "RelativeToolTip": "..\\LevelDesignerView\\Home.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:18:33.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LevelDesignerPrompt.cs",
-              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\LevelDesignerPrompt.cs",
-              "RelativeDocumentMoniker": "..\\LevelDesignerView\\LevelDesignerPrompt.cs",
-              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\LevelDesignerPrompt.cs",
-              "RelativeToolTip": "..\\LevelDesignerView\\LevelDesignerPrompt.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T12:03:56.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "LevelDesignerForm.cs",
               "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\LevelDesignerForm.cs",
               "RelativeDocumentMoniker": "..\\LevelDesignerView\\LevelDesignerForm.cs",
               "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\LevelDesignerForm.cs",
               "RelativeToolTip": "..\\LevelDesignerView\\LevelDesignerForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAIYBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:24:03.731Z",
+              "WhenOpened": "2024-11-21T03:51:21.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelDesignerView",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\LevelDesignerView.csproj",
+              "RelativeDocumentMoniker": "..\\LevelDesignerView\\LevelDesignerView.csproj",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\LevelDesignerView.csproj",
+              "RelativeToolTip": "..\\LevelDesignerView\\LevelDesignerView.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T03:51:11.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LevelDesignerPrompt.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\LevelDesignerPrompt.cs",
-              "RelativeDocumentMoniker": "..\\LevelDesignerView\\LevelDesignerPrompt.cs",
-              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\LevelDesignerPrompt.cs [Design]",
-              "RelativeToolTip": "..\\LevelDesignerView\\LevelDesignerPrompt.cs [Design]",
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WPFLevelDesignerView\\Home.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\Home.xaml.cs",
+              "RelativeToolTip": "..\\WPFLevelDesignerView\\Home.xaml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T12:03:53.934Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-21T03:25:02.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LevelDesignerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\LevelDesignerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\WPFLevelDesignerView\\LevelDesignerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\LevelDesignerWindow.xaml.cs",
+              "RelativeToolTip": "..\\WPFLevelDesignerView\\LevelDesignerWindow.xaml.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T03:08:04.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LevelDesignerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\LevelDesignerWindow.xaml",
+              "RelativeDocumentMoniker": "..\\WPFLevelDesignerView\\LevelDesignerWindow.xaml",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\LevelDesignerWindow.xaml",
+              "RelativeToolTip": "..\\WPFLevelDesignerView\\LevelDesignerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T03:04:25.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LevelDesignerPrompt.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\LevelDesignerPrompt.xaml",
+              "RelativeDocumentMoniker": "..\\WPFLevelDesignerView\\LevelDesignerPrompt.xaml",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\LevelDesignerPrompt.xaml",
+              "RelativeToolTip": "..\\WPFLevelDesignerView\\LevelDesignerPrompt.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T03:04:00.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InputDiaglog.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\InputDiaglog.xaml",
+              "RelativeDocumentMoniker": "..\\WPFLevelDesignerView\\InputDiaglog.xaml",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\InputDiaglog.xaml",
+              "RelativeToolTip": "..\\WPFLevelDesignerView\\InputDiaglog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T03:03:46.966Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LevelDesignerForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\LevelDesignerForm.cs",
-              "RelativeDocumentMoniker": "..\\LevelDesignerView\\LevelDesignerForm.cs",
-              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\LevelDesignerView\\LevelDesignerForm.cs [Design]",
-              "RelativeToolTip": "..\\LevelDesignerView\\LevelDesignerForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:59:36.347Z",
-              "EditorCaption": " [Design]"
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\Home.xaml",
+              "RelativeDocumentMoniker": "..\\WPFLevelDesignerView\\Home.xaml",
+              "ToolTip": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\Home.xaml",
+              "RelativeToolTip": "..\\WPFLevelDesignerView\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T03:03:26.299Z",
+              "EditorCaption": ""
             }
           ]
         }

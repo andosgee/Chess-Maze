@@ -60,6 +60,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ChessGame\ChessMaze.csproj" />
+    <ProjectReference Include="..\WPFLevelDesignerView\WPFLevelDesignerView.csproj" />
   </ItemGroup>
 
   <ItemGroup>

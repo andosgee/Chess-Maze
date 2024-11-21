@@ -696,6 +696,22 @@
         "runtime": {
           "bin/placeholder/ChessMaze.dll": {}
         }
+      },
+      "WPFLevelDesignerView/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ChessMaze": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WPFLevelDesignerView.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WPFLevelDesignerView.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -1751,11 +1767,17 @@
       "type": "project",
       "path": "../ChessGame/ChessMaze.csproj",
       "msbuildProject": "../ChessGame/ChessMaze.csproj"
+    },
+    "WPFLevelDesignerView/1.0.0": {
+      "type": "project",
+      "path": "../WPFLevelDesignerView/WPFLevelDesignerView.csproj",
+      "msbuildProject": "../WPFLevelDesignerView/WPFLevelDesignerView.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "ChessMaze >= 1.0.0"
+      "ChessMaze >= 1.0.0",
+      "WPFLevelDesignerView >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1793,6 +1815,9 @@
           "projectReferences": {
             "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj": {
               "projectPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\ChessGame\\ChessMaze.csproj"
+            },
+            "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\WPFLevelDesignerView.csproj": {
+              "projectPath": "C:\\Users\\Andrew\\OneDrive - Ara Institute of Canterbury\\2024\\BCDE222 Best Programming Practices C#\\Assessment 2\\BCDE222\\WPFLevelDesignerView\\WPFLevelDesignerView.csproj"
             }
           }
         }

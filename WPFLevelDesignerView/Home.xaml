@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPFLevelDesignerView.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Home" Height="450" Width="800">
+    <Grid>
+        <!-- Title -->
+        <Label Content="Chess Maze"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               FontSize="28"
+               Margin="0,30,0,0"/>
+
+        <!-- Buttons -->
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+            <StackPanel>
+                <Button Content="Open From File" Width="120" Click="BtnOpenFromFile_Click" />
+                <Image Source="Resources/FileIcon.png" Width="50" Height="50" Margin="0,10,0,0"/>
+            </StackPanel>
+            <StackPanel>
+                <Button Content="Level Designer" Width="120" Click="BtnLevelDesigner_Click" />
+                <Image Source="Resources/DesignerIcon.png" Width="50" Height="50" Margin="0,10,0,0"/>
+            </StackPanel>
+            <StackPanel>
+                <Button Content="Play" Width="120" Click="BtnPlay_Click" />
+                <Image Source="Resources/PlayIcon.png" Width="50" Height="50" Margin="0,10,0,0"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
