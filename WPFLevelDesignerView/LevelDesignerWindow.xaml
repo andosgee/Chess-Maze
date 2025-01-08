@@ -1,0 +1,56 @@
+﻿<Window x:Class="WPFLevelDesignerView.LevelDesignerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Level Designer" Height="500" Width="700">
+    <Grid>
+        <!-- Level Name Label -->
+        <Label x:Name="labelLevelName" Content="Level Designer" FontSize="12" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,9,0,0" />
+
+        <!-- Rename Button -->
+        <Button Content="Rename Level" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,33,0,0" Width="75" Height="23" Click="buttonRename_Click"/>
+
+        <!-- Level Size Label -->
+        <Label x:Name="labelLevelSize" Content="Level Size" FontSize="12" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,59,0,0" />
+
+        <!-- Chessboard Panel -->
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="377,62,0,0" Width="316" Height="288">
+            <Grid Name="pnlChessBoard"/>
+        </Border>
+
+        <!-- Pieces Label -->
+        <Label Content="Pieces" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,114,0,0" />
+
+        <!-- Piece Picture Boxes -->
+            <Image Name="picBoxPawn" Source="Resources/Pieces/pawn_b.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,149,0,0" Width="45" Height="45" MouseLeftButtonUp="picBoxPawn_Click" Stretch="Fill"/>
+            <Image Name="picBoxRook" Source="Resources/Pieces/rook_b.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="72,149,0,0" Width="45" Height="45" MouseLeftButtonUp="picBoxRook_Click"/>
+        <Image Name="picBoxBishop" Source="Resources/Pieces/bishop_b.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="123,149,0,0" Width="45" Height="45" MouseLeftButtonUp="picBoxBishop_Click"/>
+        <Image Name="picBoxKnight" Source="Resources/Pieces/knight_b.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="21,224,0,0" Width="45" Height="45" MouseLeftButtonUp="picBoxKnight_Click"/>
+        <Image Name="picBoxKing" Source="Resources/Pieces/king_b.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="72,224,0,0" Width="45" Height="45" MouseLeftButtonUp="picBoxKing_Click"/>
+        <Image Name="picBoxEmpty" Source="Resources/Pieces/empty.png" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="123,224,0,0" Width="45" Height="45" MouseLeftButtonUp="picBoxEmpty_Click"/>
+
+        <!-- Piece Labels -->
+        <Label Content="Pawn" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="26,197,0,0" />
+        <Label Content="Rook" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="77,197,0,0" />
+        <Label Content="Bishop" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="123,197,0,0" />
+        <Label Content="Knight" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="23,272,0,0" />
+        <Label Content="King" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="81,272,0,0" />
+        <Label Content="Remove" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,272,0,0" />
+
+        <!-- Selected Piece Label -->
+        <Label x:Name="labelSelectedPiece" Content="No Piece Selected" FontSize="12" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="33,298,0,0" />
+
+        <!-- Buttons for Start Point, Add Goal, Set Finish, Remove Goal -->
+        <Button Content="Set Start" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,364,0,0" Width="75" Height="23" Background="Green" Foreground="White" Click="btnStartPoint_Click"/>
+        <Button Content="Add Goal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="95,364,0,0" Width="75" Height="23" Background="Yellow" Click="btnAddGoal_Click"/>
+        <Button Content="Set Finish" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="176,364,0,0" Width="75" Height="23" Background="Red" Click="btnSetFin_Click"/>
+
+        <!-- Remove Goal and Remove Selection Buttons -->
+        <Button Content="Remove Goal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="148,393,0,0" Width="103" Height="23" Click="btnRemoveGoal_Click"/>
+        <Button Content="Remove Selection" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,393,0,0" Width="123" Height="23" Click="btnRemoveSelect_Click"/>
+        <Button Content="Remove All Goals" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,422,0,0" Width="139" Height="23" Click="btnRemoveAllGoals_Click"/>
+
+        <!-- Type Selected Label -->
+        <Label x:Name="labelTypeSelected" Content="None Selected" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="72,335,0,0" />
+
+    </Grid>
+</Window>
