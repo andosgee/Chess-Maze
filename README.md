@@ -1,1 +1,1 @@
-# BCDE222
+# Chess Maze Views
